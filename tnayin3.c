@@ -8,12 +8,10 @@ int main()
 	}
 	
 	int max = arr[0];
-	int index = 0;
 	for(int i = 0; i < 5; i++){
 		if(max < arr[i]){
-			max =  arr[i];
-			index = i;	
+			max =  arr[i];	
 		}
 	}
-	printf("%d \n", index);
+	printf("%d \n", max);
 }
